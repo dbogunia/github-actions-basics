@@ -1,7 +1,7 @@
 FROM node:16-alpine
 WORKDIR /app
 COPY package*.json ./
-RUN nmp install
+RUN npm install
 COPY . .
 CMD ["node", "index.js"]
 
