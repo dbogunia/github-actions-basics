@@ -1,6 +1,8 @@
 name: Security Test
 
+
 on: [push]
+
 
 jobs:
   test-secrets:
