@@ -5,7 +5,7 @@ on: [push]
 jobs:
   test-secrets:
     runs-on: ubuntu-latest
-    stepas:
+    steps:
       - name: Try to print secret
         env:
           MY_PASSWORD: ${{ secrets.DB_PASSWORD }}
